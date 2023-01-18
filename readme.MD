@@ -31,7 +31,7 @@ As a web developer, I familiarized myself with best practices for building email
 
 ### Resources Used
 - Email on Acid
-  - [HTML Email Development Best Practices: Rules to Code By](https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2/target="_blank")
+  - [HTML Email Development Best Practices: Rules to Code By](https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2/)
   - [Which Code Should I Include in Every Email?](https://www.emailonacid.com/blog/article/email-development/which-code-should-i-include-in-every-email/)
 - Marketo Resources
   - [8 Tips for Creating Marketo 2.0 Email Templates From Scratch](https://www.demandgen.com/3-tips-for-streamlining-your-marketo-2-0-email-templates/)
