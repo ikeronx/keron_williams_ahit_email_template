@@ -1,30 +1,37 @@
-# AHIT - Email Template
-
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [My Procces](##myprocess)
-  - [Resources Used](#resourcesused)
-    - [Email on Acid](#emailonacid)
-    - [Marketo](#marketo)
-    - [Figma](#figma)
-  - [Built With](#builtwith)
-  - [What I Learned](#whatilearned)
-  - [Contined Development](#contineddevelopment)
+    - [Screenshots](#screenshots)
+    - [Links](#links)
+- [My Process](#my-process)
+    - [Resources Used](#resources-used)
+        - [Email on Acid](#email-on-acid)
+        - [Marketo](#marketo)
+        - [Figma](#figma)
+    - [Built With](#built-with)
+    - [What I Learned](#what-i-learned)
+    - [Contined Development](#contined-development)
 
 ## Overview
 I was given a design file to convert to HTML code, and then convert it to Marketo code using Marketo's email template syntax. The email template was created for American Home Inspection Training (AHIT).
 
 ## Screenshots
-<img align="right" src="https://i.imgur.com/VEut6ON.png" width=500px target="_blank"/>
-<img align="right" src="https://i.imgur.com/quhqNzw.png" width=500px target="_blank"/>
-<img align="right" src="https://i.imgur.com/A2PiQR1.png" width=500px target="_blank"/>
-<img align="right" src="https://i.imgur.com/SXnmRKm.png" width=500px target="_blank"/>
+<a href="https://i.imgur.com/VEut6ON.png" target="_blank">
+  <img align="right" src="https://i.imgur.com/VEut6ON.png" width=500px/>
+</a>
+<a href="https://i.imgur.com/quhqNzw.png" target="_blank">
+  <img align="right" src="https://i.imgur.com/quhqNzw.png" width=500px/>
+</a>
+<a href="https://i.imgur.com/A2PiQR1.png" target="_blank">
+  <img align="right" src="https://i.imgur.com/A2PiQR1.png" width=500px/>
+</a>
+<a href="https://i.imgur.com/SXnmRKm.png" target="_blank">
+  <img align="right" src="https://i.imgur.com/SXnmRKm.png" width=500px/>
+</a>
+
 
 ## Links
-[Live Email Preview](https://codepen.io/ikeronx/pen/NWBaqGX?editors=1000target="_blank")
+<a href="https://codepen.io/ikeronx/pen/NWBaqGX?editors=1000" target="_blank">Live Email Preview</a>
 
 ## My Process
 As a web developer, I familiarized myself with best practices for building email templates and how to make them render properly across different email clients, specifically Outlook. I researched and read articles on Email on Acid to aid me in creating a professional and effective email template. Additionally, I read the Marketo documentation to convert the HTML code of the email template to the Marketo email template syntax, so that the email template would be editable on the Marketo platform. I also read other articles to better understand how to do this, including the documentation provided by Marketo.
@@ -49,5 +56,4 @@ As a web developer, I familiarized myself with best practices for building email
 
 ### Contined Development
 While this email template was created as part of a job interview, I plan to continue developing and improving it in the future. I also plan to use the skills and knowledge I gained from this project to create other email templates for various clients.
-
 
