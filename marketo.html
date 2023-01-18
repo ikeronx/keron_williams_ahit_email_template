@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <!-- *** MARKETO VARIABLE DEFINITIONS *** -->
+
+    <!-- Head Tag Variables -->
+    <meta class="mktoText" id="emailTitleTxt" mktoName="Email Title"
+        default="American Home Inspection Training by The CE Shop - Keron Williams">
+
+    <!-- Global Scope Variables -->
+    <!-- <meta class="mktoList" id="sectinBGColor" mktoName="Section BG Color" values="#ffffff,#F2F2F5,#222222"> -->
+    <meta class="mktoString" id="headingOneTxt" mktoName="H1 Heading" mktoModuleScope="false"
+        default="This is a heading.">
+    <meta class="mktoString" id="headingTwoTxt" mktoName="H2 Heading" mktoModuleScope="false"
+        default="This is subheading.">
+    <meta class="mktoColor" id="preHeadingBgClr" mktoName="Pre-Heading Background Color" mktoModuleScope="true"
+        default="#183256">
+    <meta class="mktoString" id="preHeadingTxt" mktoName="Pre-Heading" mktoModuleScope="false"
+        default="This is a pre-heading.">
+    <meta class="mktoColor" id="preHeadingClr" mktoName="Pre-Heading Text Color" mktoModuleScope="true"
+        default="#ffffff">
+    <meta class="mktoString" id="bodyTxt" mktoName="Body Text" mktoModuleScope="false"
+        default="Lorem ipsum dolor amet umami kogi you kombucha bun pabst unicorn sriracha">
+    <meta class="mktoString" id="shortTxt" mktoName="Short Text" mktoModuleScope="false" default="Lorem ipsum dolor">
+
+    <meta class="mktoColor" id="bodyFontClr" mktoName="Body Font Color" mktoModuleScope="true" default="#000000">
+    <meta class="mktoColor" id="brandClrDrk" mktoName="Brand Color Dark Blue" mktoModuleScope="True" default="#183256">
+    <meta class="mktoColor" id="brandClrOrange" mktoName="Brand Color Orange" mktoModuleScope="True" default="#E82427">
+    <meta class="mktoColor" id="brandClrLgt" mktoName="Brand Color Light Blue" mktoModuleScope="True" default="#2458A5">
+    <meta class="mktoColor" id="btnBgClr" mktoName="Btn BG Color" mktoModuleScope="true" default="#2458A5">
+    <meta class="mktoColor" id="btnTxtClr" mktoName="Btn Text Color" mktoModuleScope="true" default="#ffffff">
+    <meta class="mktoString" id="btnTxt" mktoName="Btn Text" mktoModuleScope="false" default="Btn Text">
+    <meta class="mktoString" id="btnLink" mktoName="Btn Link" mktoModuleScope="false"
+        default="https://ikeronx.github.io/portfolio-v2/">
+    <!-- Header Module Variables -->
+    <meta class="mktoImg" id="logoBanner" mktoName="Logo Banner"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/fea1c0d3-bf66-c104-a585-0c9a71ed8699.png">
+    <meta class="mktoImg" id="heroImage" mktoName="Hero Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/445c333c-8ed3-794a-5fc2-5b4210e07714.png">
+    <!-- Blog Articles Module Variables -->
+    <meta class="mktoImg" id="articleTwoImg" mktoName="Article Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/f72822a8-02db-928a-6a86-361861725065.png">
+    <meta class="mktoString" id="articleAuthorTxt" mktoName="Article Author Name" mktoModuleScope="false"
+        default="Author's name goes here  •">
+    <meta class="mktoString" id="articleTagTxt" mktoName="Article Tag Text" mktoModuleScope="false"
+        default="Tag, Tag, Tag">
+    <meta class="mktoString" id="articleCTATxt" mktoName="Article CTA Text" mktoModuleScope="True" default="Read More">
+    <!-- Webinar Module Variables -->
+    <meta class="mktoImg" id="WebinarSpeakerImgOne" mktoName="Speaker One Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/7cd8ebf1-8654-cd2c-54f4-e58cf3dd9f37.png">
+    <meta class="mktoImg" id="WebinarSpeakerImgTwo" mktoName="Speaker Two Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/15d13e34-7fb1-8e34-310a-47220f934940.png">
+    <meta class="mktoImg" id="WebinarSpeakerImgThree" mktoName="Speaker Three Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/52ae72aa-4618-8f5a-49d7-0ce544ea9cd2.png">
+    <!-- Problem Solve Module -->
+    <meta class="mktoImg" id="problemSolveImg" mktoName="Problem Solve Speech Bubble Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/d18c5dcb-3abb-3282-40b5-3f277a529da5.png">
+    <!-- New Course Module Variables -->
+    <meta class="mktoImg" id="newCourseImg" mktoName="New Course Instructor Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/97881963-5f82-7f45-a409-95fe64256b3b.png">
+    <!-- Pro Tips Module Variables-->
+    <meta class="mktoImg" id="proTipsIcon" mktoName="Pro Tips Wings Icon"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/b35a6c99-27b6-f3dc-aae3-09694b62499d.png">
+    <!-- Product Spotlight Module Variables -->
+    <meta class="mktoImg" id="productSpotlightImg" mktoName="Product Spotlight Image"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/05ca95ef-bd60-5916-8515-6be82fe7ec40.png">
+    <!-- Footer Module Variables -->
+    <meta class="mktoColor" id="footerBgClr" mktoName="Footer BG Color" default="#222222">
+    <meta class="mktoColor" id="footerClr" mktoName="Footer Text Color" default="#71787E">
+    <meta class="mktoImg" id="facebookIcon" mktoName="Facebook Icon"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/cb08f594-ec69-4fab-5f63-0a15cc8c5f57.png">
+    <meta class="mktoImg" id="twitterIcon" mktoName="Twitter Icon"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/3585ea39-910c-3d04-1bec-6876edc7cc52.png">
+    <meta class="mktoImg" id="linkedInIcon" mktoName="LinkedIn Icon"
+        default="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/9d94242c-6408-8622-ac95-6f1fa4d68b1c.png">
+
+    <!-- *** END MARKETO GLOBAL DEFINITIONS *** -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <title>${emailTitleTxt}</title>
+    <!--[if mso]> 
+      <noscript>
+         <xml>
+            <o:OfficeDocumentSettings>
+               <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+      <![endif]-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font: inherit;
+        }
+
+        table,
+        td,
+        div,
+        h1,
+        p {
+            font-family: 'Lato', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body style="margin:0;padding:0;">
+    <!-- BODY TABLE-->
+    <table role="presentation"
+        style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#202124;">
+        <tr>
+            <td align="center" style="padding:0 0 0 0;">
+                <!-- MARKETO CONTAINER -->
+                <table class="mktoContainer" mktoname="AHIT Email Template" role="presentation"
+                    style="width:640px;border-collapse:collapse;border-spacing:0;text-align:left;">
+                    <tr class="mktoModule" mktoName="Header" id="headerModule">
+                        <!-- ROW 0 - HEADER MODULE -->
+                        <td class="header" align="center" style="padding:0 0 0 0; background: #FFFFFF;">
+                            <!-- header banner logo -->
+                            <img class="header__logo-banner" src="${logoBanner}"
+                                alt="AHIT logo banner - Inspect this! News and Offers for Home Inspectors" width="600"
+                                style="height:auto;display:block;">
+                            <!-- header banner logo -->
+                            <img class="header__hero-img" src="${heroImage}"
+                                alt="Photo of a man inspecting a kitchen cabinet while holding a flashlight" width="640"
+                                style="height:auto;display:block;margin: 20px 0 0 0;">
+                        </td>
+                    </tr>
+                    <!-- MAIN CONTENT -->
+                    <tr class="mktoModule" mktoName="Blog Articles" id="blogModule">
+                        <!-- ROW 1 - BLOG ARTICLES MODULE-->
+                        <td class="main-content" style="padding:0 0 0 0;">
+                            <table role="presentation"
+                                style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                <tr>
+                                    <td class="blog-articles" style="padding:51px 50px 0 50px;background: #FFFFFF;">
+                                        <!-- Blog Article One -->
+                                        <table role="presentation"
+                                            style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                            <tr>
+                                                <td class="blog-article-one" style="padding:0;">
+                                                    <!-- blog article one -- heading-->
+                                                    <h1 class="blog-article-one__heading"
+                                                        style="margin:0 0 10px 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500px;font-size: 26px;line-height:37px;color: ${brandClrDrk};">
+                                                        ${headingOneTxt}
+                                                    </h1>
+                                                    <!-- blog article one -- text-->
+                                                    <p class="blog-article-one__text"
+                                                        style="margin:0 0 10px 0;font-family: 'Lato', Arial, sans-serif;font-weight: 400; font-size: 16px;line-height: 22px;color:#000000;">
+                                                        ${bodyTxt}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- Blog Article Footer -->
+                                        <table role="presentation"
+                                            style="width:100%;border-collapse:collapse;border:0;">
+                                            <tr>
+                                                <td class="blog-article-footer" style="padding:0 0 30px 0;">
+                                                    <!-- line -->
+                                                    <hr style="width:100%;">
+                                                    <table style="width: 100%;">
+                                                        <tr>
+                                                            <!-- by author / text -->
+                                                            <td class="blog-article-footer__author"
+                                                                style=" padding: 0 0 6px 0;">
+                                                                <span
+                                                                    style="width: 75%; text-align: left;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 10px;line-height: 0px;color: #000000;">
+                                                                    <span>${articleAuthorTxt}</span>
+                                                                    <span style="padding: 0 10px 0 10px; ">•</span>
+                                                                    <span
+                                                                        style="color: ${brandClrOrange};">${articleTagTxt}</span>
+                                                                </span>
+                                                            </td>
+                                                            <!-- read more text & img -->
+                                                            <td class="blog-article-footer__read-more" align='right'
+                                                                style="padding: 0 0 5px 0;">
+                                                                <span style="width: 20%;text-align: right">
+                                                                    <a role="button"
+                                                                        href="https://ikeronx.github.io/portfolio-v2/"
+                                                                        target="_blank"
+                                                                        style="text-align: right;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 10px;line-height: 0px;color: ${brandClrLgt}; text-decoration: none;cursor: pointer;">
+                                                                        ${articleCTATxt}
+                                                                    </a>
+                                                                </span>
+                                                                <span>
+                                                                    <a role="button"
+                                                                        href="https://ikeronx.github.io/portfolio-v2/"
+                                                                        target="_blank">
+                                                                        <img valign="middle"
+                                                                            style='padding-left:5px;mso-line-height-rule: exactly;mso-table-lspace: 0pt;'
+                                                                            src="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/c5eecd8e-e72f-e748-5601-424b4daed4de.png"
+                                                                            alt="polygon icon">
+                                                                    </a>
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- line -->
+                                                    <hr style="width:100%;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- Blog Article Two-->
+                                        <table role="presentation"
+                                            style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                            <tr>
+                                                <!-- article img -->
+                                                <td class="blog-article-two__img"
+                                                    style="width:160px;padding:0 0 15px 0;vertical-align:top;">
+                                                    <img src="${articleTwoImg}"
+                                                        alt="A picture of a hand holding an inspection tool" width="160"
+                                                        style="height:auto;display:block;">
+                                                </td>
+                                                <td style="width:30px;padding:0 0 0 0;font-size:0;line-height:0;">&nbsp;
+                                                </td>
+                                                <!-- blog article two body text  -->
+                                                <td style="width:350px;padding:0 0 0 0;vertical-align:top;">
+                                                    <!-- blog article two -- heading-->
+                                                    <h2 class="blog-article-two__heading"
+                                                        style="margin:0 0 10px 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500px;font-size: 22px;line-height:26px;color: ${brandClrDrk};">
+                                                        ${headingTwoTxt}
+                                                    </h2>
+                                                    <!-- blog article one -- text-->
+                                                    <p class="blog-article-two__text"
+                                                        style="margin:0 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 400; font-size: 16px;line-height: 22px;color: #000000;">
+                                                        ${bodyTxt}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- Blog Article TWO Footer -->
+                                        <table role="presentation"
+                                            style="width:100%;border-collapse:collapse;border:0;">
+                                            <tr>
+                                                <td class="blog-article-footer" style="padding:0 0 45px 0;">
+                                                    <!-- line -->
+                                                    <hr style="width:100%;">
+                                                    <table style="width: 100%;">
+                                                        <tr>
+                                                            <!-- by author / text -->
+                                                            <td class="blog-article-footer__author"
+                                                                style=" padding: 0 0 6px 0;">
+                                                                <span
+                                                                    style="width: 75%; text-align: left;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 10px;line-height: 0px;color: #000000;">
+                                                                    <span>${articleAuthorTxt}</span>
+                                                                    <span style="padding: 0 10px 0 10px; ">•</span>
+                                                                    <span
+                                                                        style="color: ${brandClrOrange};">${articleTagTxt}</span>
+                                                                </span>
+                                                            </td>
+                                                            <!-- read more text & img -->
+                                                            <td class="blog-article-footer__read-more" align='right'
+                                                                style="padding: 0 0 5px 0;">
+                                                                <span style="width: 20%;text-align: right">
+                                                                    <a role="button"
+                                                                        href="https://ikeronx.github.io/portfolio-v2/"
+                                                                        target="_blank"
+                                                                        style="text-align: right;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 10px;line-height: 0px;color: ${brandClrLgt}; text-decoration: none;cursor: pointer;">
+                                                                        ${articleCTATxt}
+                                                                    </a>
+                                                                </span>
+                                                                <span>
+                                                                    <a role="button"
+                                                                        href="https://ikeronx.github.io/portfolio-v2/"
+                                                                        target="_blank">
+                                                                        <img valign="middle"
+                                                                            style='padding-left:5px;mso-line-height-rule: exactly;mso-table-lspace: 0pt;'
+                                                                            src="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/c5eecd8e-e72f-e748-5601-424b4daed4de.png"
+                                                                            alt="polygon icon">
+                                                                    </a>
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- line -->
+                                                    <hr style="width:100%;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                <tr>
+                                    <!-- BLOG CTA BTN -->
+                                    <td class="cta-btn--register-now" align="center"
+                                        style="padding:0 0 0 0;background-color: #FFFFFF;">
+                                        <a role="button" href="${btnLink}" target="_blank"
+                                            style="display: inline-block;font-family: 'Lato', Arial, sans-serif;font-size: 16px;font-weight: 700;text-decoration: none;text-shadow: 0px 4px 4px #40404040;line-height: 22px;color: ${btnTxtClr};cursor: pointer;margin: 0 0 0 0;padding: 9px 35px 9px 35px;background: ${btnBgClr};border-radius: 10px; mso-padding-alt:0;text-underline-color:#333">
+                                            <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:15pt" hidden>&nbsp;</i><![endif]--><span
+                                                style="mso-text-raise:8pt;">${btnTxt}</span>
+                                            <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                        </a>
+                                    </td>
+                                </tr>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="mktoModule" mktoName="Space Divider" id="dividerOne">
+            <!-- MODULE DIVIDER -->
+            <td style="line-height:50px;height:50px;mso-line-height-rule:exactly;background-color: #FFFFFF;">&nbsp;</td>
+        </tr>
+        <tr class="mktoModule" mktoName="Webinar" id="webinarModule">
+            <!-- ROW 2 - WEBINAR MODULE-->
+            <td class="webinar" style="padding:0 0 0 0;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                    <tr>
+                        <td style="padding: 0 0 0 0;background: ${preHeadingBgClr};">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;">
+                                <tr>
+                                    <td style="padding:12px 40px 12px 52px;">
+                                        <p class="sub-heading"
+                                            style="font-family: 'Lato', Arial, sans-serif;font-weight: 700;font-size: 16px;line-height: 22px;color: ${preHeadingClr};">
+                                            ${preHeadingTxt}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- webinar speaker images  -->
+                        <td align="center" class="webninar__speaker-imgs"
+                            style="padding:25px 0 0 0;background-color: #FFFFFF;">
+                            <img src="${WebinarSpeakerImgOne}" alt="guest speaker one" width="125" height="125"
+                                style="display: inline-block;height:auto;max-width: 100%;">
+                            <!-- horizontal spacer -->
+                            <span
+                                style="display:inline-block;width:20px; font-size:0; mso-line-height-rule:exactly;">&nbsp;</span>
+                            <img src="${WebinarSpeakerImgTwo}" alt="guest speaker two" width="125" height="125"
+                                style="display: inline-block;height:auto;max-width: 100%;">
+                            <!-- horizontal spacer -->
+                            <span
+                                style="display:inline-block;width:20px; font-size:0; mso-line-height-rule:exactly;">&nbsp;</span>
+                            <img src="${WebinarSpeakerImgThree}" alt="guest speaker three" width="125" height="125"
+                                style="display: inline-block;height:auto;max-width: 100%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- webinar body text  -->
+                        <td align="center" class="webninar__body-text"
+                            style="padding:20px 0 0px 0;background-color: #FFFFFF;">
+                            <h2
+                                style="margin: 0 0 20px 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500;font-size: 26px;line-height: 37px;text-align: center;color: ${brandClrDrk}; padding: 0 0 0 0;">
+                                ${headingTwoTxt}<span style="color: ${brandClrOrange}; ">${headingTwoTxt}</span>
+                            </h2>
+                            <p
+                                style="margin: 0 0 20px 0;padding: 0 50px 0 50px;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 16px;line-height: 22px;color: #000000;">
+                                ${bodyTxt}
+                            </p>
+                            <p
+                                style="margin: 0 0 20px 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500; font-size: 16px; line-height: 22px;color: #000000;">
+                                ${shortTxt}
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- webinar cta button -->
+                        <td class="cta-btn--register-now" align="center"
+                            style="padding:0 0 0 0;background-color: #FFFFFF;">
+                            <a role="button" href="${btnLink}" target="_blank"
+                                style="display: inline-block;font-family: 'Lato', Arial, sans-serif;font-size: 16px;font-weight: 700;text-decoration: none;text-shadow: 0px 4px 4px #40404040;line-height: 22px;color: ${btnTxtClr};cursor: pointer;margin: 0 0 0 0;padding: 9px 35px 9px 35px;background: ${btnBgClr};border-radius: 10px; mso-padding-alt:0;text-underline-color:#333">
+                                <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:15pt" hidden>&nbsp;</i><![endif]--><span
+                                    style="mso-text-raise:8pt;">${btnTxt}</span>
+                                <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="mktoModule" mktoName="Space Divider Two" id="dividerTwo" mktoActive="false">
+            <!-- MODULE DIVIDER -->
+            <td style="line-height:50px;height:50px;mso-line-height-rule:exactly;background-color: #FFFFFF;">&nbsp;</td>
+        </tr>
+        <tr class="mktoModule" mktoName="Problem Solve" id="problemSolveModule">
+            <!-- ROW 3 - PROBLEM SOLVE MODULE-->
+            <td class="prob-slv" style="padding:50px 0 0 127px;background: #F2F2F5;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                    <tr>
+                        <!-- prob slv img -->
+                        <td class="prob-slv-img __img" style="width:83px;padding:0 0 0 0;vertical-align:top;">
+                            <img src="${problemSolveImg}" alt="text bubble icon" width="83"
+                                style="height:auto;display:inline-block;padding:0 0 0 0;">
+                        </td>
+                        <!-- gutter -->
+                        <td style="width:30px;padding:0 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        <!-- blog article two body text  -->
+                        <td style="padding:0px 50px 0 0;">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;">
+                                <tr>
+                                    <td style="padding: 0 0 25px 0;">
+                                        <span>
+                                            <p
+                                                style="font-family: 'Oswald', Arial, sans-serif; font-weight: 500; font-size: 26px; line-height: 37px; color: ${brandClrDrk};">
+                                                ${headingTwoTxt}
+                                            </p>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td d style="padding: 0 0 0 0;">
+                                        <!-- Question Content -->
+                                        <table role="presentation"
+                                            style="width:100%;border-collapse:collapse;border:0;">
+                                            <tr>
+                                                <!-- Q -->
+                                                <td valign="top"
+                                                    style="margin:0 -3px 0 0;padding: 0 10px 0 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 700; font-size: 38px; line-height: 38px;color: ${brandClrOrange};">
+                                                    Q:
+                                                </td>
+                                                <td
+                                                    style="padding: 0 0 0 0;vertical-align:middle;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 16px;line-height: 22px;">
+                                                    ${bodyTxt}
+                                                </td>
+                                            </tr>
+                                            <!-- vert spacer -->
+                                            <tr>
+                                                <td
+                                                    style="height: 100%;line-height:32px;height:32px;mso-line-height-rule:exactly;background-color:  #F2F2F5;">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- A -->
+                                                <td valign="top"
+                                                    style="margin:0 -3px 0 0;padding: 0 10px 0 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 700; font-size: 38px; line-height: 38px;color: ${brandClrLgt};">
+                                                    A:
+                                                </td>
+                                                <td
+                                                    style="padding: 0 0 0 0;vertical-align:middle;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 16px;line-height: 22px;">
+                                                    ${bodyTxt}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="mktoModule" mktoName="Space Divider Three" id="dividerThree" mktoActive="false">
+            <!-- MODULE DIVIDER -->
+            <td style="line-height:50px;height:50px;mso-line-height-rule:exactly;background-color: #FFFFFF;">&nbsp;</td>
+        </tr>
+        <tr class="mktoModule" mktoName="New Course" id="newCourseModule">
+            <!-- ROW 4 - NEW COURSE MODULE -->
+            <td class="webninar_sub-heading" style="background: ${preHeadingBgClr}">
+                <table role="presentation" style="width:100%;border-collapse:collapse;border:0;">
+                    <tr>
+                        <!-- new course subheading -->
+                        <td style="padding:12px 40px 12px 52px;">
+                        <td style="padding:12px 40px 12px 52px;">
+                            <p class="sub-heading"
+                                style="font-family: 'Lato', Arial, sans-serif;font-weight: 700;font-size: 16px;line-height: 22px;color: ${preHeadingClr};">
+                                ${preHeadingTxt}
+                            </p>
+                        </td>
+            </td>
+        </tr>
+        <tr>
+            <!-- new course body text -- one -->
+            <td class="new-course"
+                style="padding:10px 50px 22px 50px; mso-padding-alt: 10px 50px 22px 50px;background-color: #ffffff;">
+                <!-- new course -- heading-->
+                <h1 class="new-course__heading"
+                    style="margin:0 0 0 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500px;font-size: 26px;line-height:37px;color: ${brandClrDrk};">
+                    ${headingTwoTxt}
+                </h1>
+                <!-- new course -- text--one -->
+                <p class="new-course__text--one"
+                    style="margin:10px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 400; font-size: 16px;line-height: 22px;color: #000000;">
+                    ${bodyTxt}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0 66px 0 66px;background-color: #ffffff;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                    <tr>
+                        <!-- instructor-img -->
+                        <td class="new-course__instructor-img" style="padding:0 0 0 0;width:160px;vertical-align:top;">
+                            <img src="${newcourseImg}" alt="A picture of the class instructor" width="105"
+                                style="height:auto;display:inline-block;padding:0 0 0 0;">
+                        </td>
+                        <!-- gutter -->
+                        <td style="width:18px;padding:0 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        <!-- new course two body text  -->
+                        <td
+                            style="width:100%;padding:15px 0px 0 18px; mso-padding-alt: 15px 0px 0 18px;vertical-align:top;">
+                            <!-- new course two -- heading-->
+                            <p class="new-course__text--two"
+                                style="font-family: 'Lato', Arial, sans-serif;font-weight: 400; font-size: 16px;line-height: 22px;color: #000000;">
+                                ${bodyTxt}<span style="color:${brandClrDrk};">${shortTxt}</span>
+                                <!-- new course three -- text-->
+                            <p class="new-course__text--three"
+                                style="width:385px;margin:30px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 700; font-size: 16px;line-height: 22px;color: #000000;">
+                                ${bodyTxt}
+                                <a href="https://ikeronx.github.io/portfolio-v2/" target="_blank"
+                                    style="text-decoration: none;color:${brandClrLgt};">${shortTxt}</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    <tr class="mktoModule" mktoName="Space Divider Four" id="dividerFour" mktoActive="false">
+        <!-- MODULE DIVIDER -->
+        <td style="line-height:50px;height:50px;mso-line-height-rule:exactly;background-color: #FFFFFF;">&nbsp;</td>
+    </tr>
+    <tr class="mktoModule" mktoName="Pro Tips" id="proTipsModule">
+        <!-- ROW 5 - PRO TIPS MODULE-->
+        <td class="pro-tips" style="padding:59px 96px 59px 96px;background: #F2F2F5;">
+            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                <tr>
+                    <td align="center" style="padding: 0 0 0 0;">
+                        <img src="${proTipsIcon}" alt="icon" width="49"
+                            style="height:auto;display:inline-block;padding:0 0 0 0;">
+                        <h2
+                            style="margin:15px 0 0 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500;font-size: 46px;line-height: 38px;text-transform: uppercase;color: ${brandClrDrk};">
+                            ${headingTwoTxt}</h2>
+                        <p
+                            style="margin:23px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 700;font-size: 20px;line-height: 24px;color: ${brandClrDrk};">
+                            ${bodyTxt}</p>
+                        <p
+                            style="margin:30px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 700;font-size: 20px;line-height: 24px;color: ${brandClrOrange};">
+                            ${bodyTxt}</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="mktoModule" mktoName="Space Divider Five" id="dividerFive" mktoActive="false">
+        <!-- MODULE DIVIDER -->
+        <td style="line-height:50px;height:50px;mso-line-height-rule:exactly;background-color: #FFFFFF;">&nbsp;</td>
+    </tr>
+    <tr class="mktoModule" mktoName="Product Spotlight Pre-Heading" id="prodSpotHeadingModule">
+        <!-- ROW 6 - PRODUCT SPOTLIGHT MODULE-->
+        <td class="prod-spotlight" style="padding:0 0 0 0;background-color: ${preHeadingBgClr};">
+            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;">
+                <tr>
+                    <!-- product spotlight heading -->
+                    <td class="prod-spotlight_sub-heading" style="padding:12px 40px 12px 52px;">
+                        <p class="sub-heading"
+                            style="font-family: 'Lato', Arial, sans-serif;font-weight: 700;font-size: 16px;line-height: 22px;color: ${preHeadingClr};">
+                            ${preHeadingTxt}
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="mktoModule" mktoName="Product Spotlight" id="prodspotContentModule">
+        <!-- ROW 7 - PRODUCT SPOTLIGHT CONTENT MODULE-->
+        <td class="prod-spotlight-content" style="padding:28px 50px 50px 50px; background-color: #FFFFFF;">
+            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;">
+                <tr>
+                    <td align="center" style="padding:0 0 0 0;">
+                        <!-- product spotlight img -->
+                        <img class="prod-spotlight__img" src="${productSpotlightImg}" alt="A picture of two laptops"
+                            width="400" style="height:auto;display:inline-block;padding:0 0 0 0;">
+                        <!-- product spotlight heading -->
+                        <h2 class="prod-spotlight__heading"
+                            style="margin:15px 0 0 0;font-family: 'Oswald', Arial, sans-serif;font-weight: 500;font-size: 26px;line-height: 37px;color: ${brandClrDrk};">
+                            ${headingTwoTxt}<span style="color: ${brandClrOrange};">${headingTwoTxt}</span></h2>
+                        <!-- product spotlight body text one -->
+                        <p class="prod-spotlight__bd-text--one"
+                            style="margin:15px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 400;font-size: 16px;text-align: left; line-height: 22px;color: #000000;">
+                            ${shortTxt}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- product spotlight checklist -->
+                    <td class="prod-spotlight__checklist" style="padding:15px 0px 15px 0;">
+                        <table class="prod-spotlight__checklist-items" role="presentation"
+                            style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                            <tr>
+                                <!-- item one -->
+                                <td class="checklist-item__one--img" style="width:6%;padding: 5px 7px 0 23px;">
+                                    <img src="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/c8d981b3-b75e-7d24-1eab-1a1445381335.png"
+                                        width="15" style="height:auto;display:inline-block;padding:0 0 0 0;">
+                                </td>
+                                <td class="checklist-item__one--img" style="width:100%;padding: 0 0 0 0;">
+                                    <p
+                                        style="margin:0px 0 0px 0px;font-size: 16px;font-family: 'Lato', Arial, sans-serif;font-weight:400;line-height: 22px;color:#000000;">
+                                        <span
+                                            style="font-weight: 700;color:${brandClrLgt};">${shortTxt}</span>${shortTxt}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- item two-->
+                                <td class="checklist-item__two--img" style="width:6%;padding: 5px 7px 0 23px;">
+                                    <img src="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/c8d981b3-b75e-7d24-1eab-1a1445381335.png"
+                                        width="15" style="height:auto;display:inline-block;padding:0 0 0 0;">
+                                </td>
+                                <td class="checklist-item__two--text" style="width:10%;padding: 0 0 0 0;">
+                                    <p
+                                        style="margin:0px 0 0px 0px;font-size: 16px;font-family: 'Lato', Arial, sans-serif;font-weight:400;line-height: 22px;color:#000000;">
+                                        <span style="font-weight: 700;color: ${brandClrLgt};">${shortTxt}</span>
+                                        ${shortTxt}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- item three -->
+                            <tr>
+                                <td class="checklist-item__three--img" style="width:6%;padding: 5px 7px 0 23px;">
+                                    <img src="https://mcusercontent.com/b4920c6f5033166a54fe04fe6/images/c8d981b3-b75e-7d24-1eab-1a1445381335.png"
+                                        width="15" alt="icon" style="height:auto;display:inline-block;padding:0 0 0 0;">
+                                </td>
+                                <td class="checklist-item__three--text" style="width:10%;padding: 0 0 0 0;">
+                                    <p
+                                        style="margin:0px 0 0px 0px;font-size: 16px;font-family: 'Lato', Arial, sans-serif;font-weight:400;line-height: 22px;color:#000000;">
+                                        <span style="font-weight: 700;color: ${brandClrLgt};">${shortTxt}</span>
+                                        ${shortTxt}
+                                    </p>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- product spotlight body text two -->
+                    <td class="prod-spotlight__bdy-text--two" style="padding:0 0 30px 0;">
+                        <p
+                            style="font-family: 'Lato', Arial, sans-serif;font-weight: 400; font-size: 16px; line-height: 22px; color: #000000;">
+                            ${shortTxt}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- prod spotlight cta button -->
+                    <td class="cta-btn--register-now" align="center" style="padding:0 0 0 0;background-color: #FFFFFF;">
+                        <a role="button" href="${btnLink}" target="_blank"
+                            style="display: inline-block;font-family: 'Lato', Arial, sans-serif;font-size: 16px;font-weight: 700;text-decoration: none;text-shadow: 0px 4px 4px #40404040;line-height: 22px;color: ${btnTxtClr};cursor: pointer;margin: 0 0 0 0;padding: 9px 35px 9px 35px;background: ${btnBgClr};border-radius: 10px; mso-padding-alt:0;text-underline-color:#333">
+                            <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:15pt" hidden>&nbsp;</i><![endif]--><span
+                                style="mso-text-raise:8pt;">${btnTxt}</span>
+                            <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="mktoModule" mktoName="Footer" id="footerModule">
+        <!-- FOOTER MODULE -->
+        <!-- social media links -->
+        <td align="center" class="social-media-links"
+            style="padding:38px 70px 38px 70px;font-size:0;background-color: ${footerBgClr};">
+            <!-- facebook icon link -->
+            <a href="https://ikeronx.github.io/portfolio-v2/" target="_blank" style="cursor: pointer;">
+                <img class="facebook-link" src="${twitterIcon}" alt="facebook icon" width="38" height="38"
+                    style="display: inline-block;height:auto;max-width: 100%;"></a>
+            <!-- horizontal spacer -->
+            <span style="display:inline-block;width:10px; font-size:0; mso-line-height-rule:exactly;">&nbsp;</span>
+            <!-- twitter icon link -->
+            <a href="https://ikeronx.github.io/portfolio-v2/" target="_blank" style="cursor: pointer;">
+                <img class="twitter-link" src="${twitterIcon}" alt="twitter icon" width="38" height="38"
+                    style="display: inline-block;height:auto;max-width: 100%;"></a>
+            <!-- horizontal spacer -->
+            <span style="display:inline-block;width:10px; font-size:0; mso-line-height-rule:exactly;">&nbsp;</span>
+            <!-- linkedin icon link -->
+            <a href="https://ikeronx.github.io/portfolio-v2/" target="_blank" style="cursor: pointer;">
+                <img class="linkedin-link" src="${linkedInIcon}" alt="linkedin icon" width="38" height="38"
+                    style="display: inline-block;height:auto;max-width: 100%;"></a>
+            <!-- footer text -->
+            <p class="footer"
+                style="margin:18px 0 0 0;font-family: 'Lato', Arial, sans-serif;font-weight: 500; font-size: 14px;line-height: 22px;text-align: center;color: ${footerClr};">
+                ${bodyTxt}
+            </p>
+        </td>
+    </tr>
+    </table>
+    </td> <!-- X EMAIL MAIN CONTENT CLOSING TAG -->
+    </tr>
+    </table>
+</body>
+
+</html>
