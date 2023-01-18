@@ -41,7 +41,7 @@ As a web developer, I familiarized myself with best practices for building email
   - [HTML Email Development Best Practices: Rules to Code By](https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2/)
   - [Which Code Should I Include in Every Email?](https://www.emailonacid.com/blog/article/email-development/which-code-should-i-include-in-every-email/)
 - Marketo Resources
-  - [8 Tips for Creating Marketo 2.0 Email Templates From Scratch](https://www.demandgen.com/3-tips-for-streamlining-your-marketo-2-0-email-templates/)
+  - [8 Tips for Creating Marketo 2.0 Email Templates From Scratch](https://jennamolby.com/8-tips-for-creating-marketo-2-0-email-templates-from-scratch/)
   - [Marketo Documentation - Email Template Syntax](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/general/email-editor-2/email-template-syntax.html)
 - Figma
   - [Figma Email Template File](#figma)
