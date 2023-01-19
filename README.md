@@ -16,18 +16,11 @@
 I was given a design file to convert to HTML code, and then convert it to Marketo code using Marketo's email template syntax. The email template was created for American Home Inspection Training (AHIT).
 
 ## Screenshots
-<a href="https://i.imgur.com/Q8rynCI.png" target="_blank">
-  <img align="right" src="https://i.imgur.com/Q8rynCI.png" width=500px/>
-</a>
-<a href="https://i.imgur.com/Jxy42so.png" target="_blank">
-  <img align="right" src="https://i.imgur.com/Jxy42so.png" width=500px/>
-</a>
-<a href="https://i.imgur.com/iqtO9UW.png" target="_blank">
-  <img align="right" src="https://i.imgur.com/iqtO9UW.png" width=500px/>
-</a>
-<a href="https://i.imgur.com/SPLE5DV.png" target="_blank">
-  <img align="right" src="https://i.imgur.com/SPLE5DV.png" width=500px/>
-</a>
+<img align="right" src="https://i.imgur.com/Q8rynCI.png" width=500px/>
+<img align="right" src="https://i.imgur.com/Jxy42so.png" width=500px/>
+<img align="right" src="https://i.imgur.com/iqtO9UW.png" width=500px/>
+<img align="right" src="https://i.imgur.com/SPLE5DV.png" width=500px/>
+
 
 
 ## Links
