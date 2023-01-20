@@ -18,7 +18,6 @@ I was given a design file to convert to HTML code, and then convert it to Market
 ## Screenshots
 <img align="right" src="https://i.imgur.com/Q8rynCI.png" width=500px/>
 <img align="right" src="https://i.imgur.com/Jxy42so.png" width=500px/>
-<img align="right" src="https://i.imgur.com/iqtO9UW.png" width=500px/>
 <img align="right" src="https://i.imgur.com/SPLE5DV.png" width=500px/>
 
 
